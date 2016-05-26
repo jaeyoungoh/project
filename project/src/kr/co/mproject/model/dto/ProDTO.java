@@ -1,18 +1,24 @@
 package kr.co.mproject.model.dto;
 
+/**
+ * @author Administrator
+ *
+ */
 public class ProDTO {
 	
-	private int p_id;
+	private int p_id; 
 	private String p_type;
 	private String p_subject;
 	private String p_contents;
-	private String p_priority;
 	private int p_upper;
 	private String p_sdate;
 	private String p_edate;
 	private int p_depth;
-	private String u_id;
 	private int p_progress;
+	private String p_priority;
+	private String u_id;
+	private String p_use_yn;
+	
 	
 	public int getP_id() {
 		return p_id;
@@ -38,12 +44,6 @@ public class ProDTO {
 	public void setP_contents(String p_contents) {
 		this.p_contents = p_contents;
 	}
-	public String getP_priority() {
-		return p_priority;
-	}
-	public void setP_priority(String p_priority) {
-		this.p_priority = p_priority;
-	}
 	public int getP_upper() {
 		return p_upper;
 	}
@@ -68,17 +68,29 @@ public class ProDTO {
 	public void setP_depth(int p_depth) {
 		this.p_depth = p_depth;
 	}
-	public String getU_id() {
-		return u_id;
-	}
-	public void setU_id(String u_id) {
-		this.u_id = u_id;
-	}
 	public int getP_progress() {
 		return p_progress;
 	}
 	public void setP_progress(int p_progress) {
 		this.p_progress = p_progress;
 	}
-
+	public String getP_priority() {
+		return p_priority;
+	}
+	public void setP_priority(String p_priority) {
+		this.p_priority = p_priority;
+	}
+	public String getU_id() {
+		return u_id;
+	}
+	public void setU_id(String u_id) {
+		this.u_id = u_id;
+	}
+	public String getP_use_yn() {
+		return p_use_yn;
+	}
+	public void setP_use_yn(String p_use_yn) {
+		this.p_use_yn = p_use_yn;
+	}
+	
 }
