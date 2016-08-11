@@ -16,7 +16,7 @@ $.ajax({
     },
     success : function(data) {
     	
-    	alert(data);
+    	alert(data.contents);
 
     }
 });
